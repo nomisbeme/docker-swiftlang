@@ -13,3 +13,5 @@ RUN git clone https://github.com/apple/swift-package-manager.git swiftpm
 RUN git clone https://github.com/apple/swift-corelibs-xctest.git
 RUN git clone https://github.com/apple/swift-corelibs-foundation.git
 RUN swift/utils/build-script -R
+ADD main.swift .
+ENTRYPOINT [ "/build/Ninja-ReleaseAssert/swift-linux-x86_64/bin/swift"  ]
