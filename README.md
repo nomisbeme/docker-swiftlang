@@ -1,4 +1,4 @@
-# The Swift language (http://swift.org) packaged as a Docker container image.
+# Swift language (http://swift.org) packaged as a Linux Docker container image
 
 # About
 Dockerfile is based on the "building Swift" instructions here: https://github.com/apple/swift/blob/master/README.md
